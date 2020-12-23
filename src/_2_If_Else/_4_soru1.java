@@ -1,5 +1,7 @@
 package _2_If_Else;
 
+import java.util.Scanner;
+
 public class _4_soru1 {
     public static void main(String[] args) {
 
@@ -20,6 +22,17 @@ Eğer a karakteri yoksa "Girdiğiniz Stringde a karakteri yoktur..     mesajın�
 
  */
 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Bana bir string yaz :       ");
+        String s = sc.nextLine(); //ekrem
+        if (s.contains("a")){
+
+            String yeni =s.substring(s.indexOf("a")).toUpperCase();
+            System.out.println("Yeni Mesaj :  " + yeni);
+            System.out.println("Eski string :" + s);
+        }
+        else
+            System.out.println("a yoktur.   >>>>  " + s);
 
 
     }
