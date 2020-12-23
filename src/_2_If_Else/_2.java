@@ -24,7 +24,7 @@ public class _2 {
 
             System.out.println("Bu sayı çifttir.");
         }
-        else
+        else //bunun dısındaki ihtimaller, yani çift olan sayılar dısındaki sayılar
             System.out.println("Bu sayı tektir.");
 
 
