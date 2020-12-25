@@ -32,7 +32,6 @@
      * String metnin bos mu dolu mu oldugunu kontrol eder. Sonuc boolean dir.
      */
 
-
     /**
      *
      * length()
@@ -62,3 +61,4 @@
      * concat()
      * Iki String i birlestirmeyi saglar. Sonuc String dir.
      */
+

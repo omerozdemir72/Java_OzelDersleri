@@ -20,5 +20,6 @@ public class _6 {
         if((value1 == 1) || (value2 == 1 || value3==2||value4==1 || value5==9 ))
             System.out.println("value1 is 1 OR value2 is 1");
     }
+
     }
 
