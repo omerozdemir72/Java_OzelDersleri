@@ -41,9 +41,10 @@ public class _4 {
         System.out.println("1.Bakiye Görüntüle");
         System.out.println("2.Para Yatırma");
         System.out.println("3.Para Çekme");
-        System.out.println("4.Bakiye Görüntüle");
+        System.out.println("4.Sistemden çık");
 
 
+        System.out.print("İşlem seçiniz :   ");
 islem=sc.nextInt();
 
                     switch (islem) {//eğer işlem,
@@ -72,14 +73,15 @@ islem=sc.nextInt();
 
                             System.out.println("yeni bakiye" + bakiye);
 
+                                break;
                         case 4:
                             System.out.println("Sistemden çıkılıyor..");
                             break;
 
+                        default:
+                            System.out.println("Yanlış tuşlama yaptınız.");
+
 
                     }
-
-
-
     }
 }
