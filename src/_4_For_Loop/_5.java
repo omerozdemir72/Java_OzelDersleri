@@ -30,5 +30,19 @@ Soru:
 4 e geldiginde sistemi kapatsın.
  */
 
+        for (int i = 20; i >0 ; i--) {
+            if (i==12){
+                continue;
+            }
+            if (i==4){
+                break;
+            }
+            System.out.println(i);
+
+
+        }
+
+
+
     }
 }
