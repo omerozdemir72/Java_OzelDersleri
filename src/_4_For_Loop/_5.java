@@ -22,7 +22,13 @@ public class _5 {
         }
         System.out.println("-----------************------------------");
 
+/*
+Soru:
 
+20 den 0 'a kadar (0 dahil) geriye gelen bir döngü yazınız.
+12 ye geldiginde atlasın.
+4 e geldiginde sistemi kapatsın.
+ */
 
     }
 }
