@@ -3,6 +3,7 @@ package _5_While;
 import java.util.Scanner;
 
 public class _9_Odev {
+
     /*
 FAKTÖRİYEL BULMA PROGRAMI
 
