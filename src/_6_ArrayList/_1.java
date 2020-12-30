@@ -63,8 +63,33 @@ public class _1 {
         stringArrayList.add(3,"Burak");
         System.out.println(stringArrayList);
 
+        System.out.println("--------------UZUNLUK BULMA --------.size();------");
+
+        System.out.println(integerArrayList.size());
+
+        System.out.println(" \n ----------                INDEKSTEKİ ELEMANI DEĞİŞTİRME      ---------   \n" );
+
+        System.out.println("ilk hali :   " + stringArrayList);
+        stringArrayList.set(2,"Zeynep"); //2. indeksteki elemanla Zeynep ismini değiştir.
+        System.out.println("sonraki hali :   " + stringArrayList);
+
+        System.out.println(integerArrayList);
+        integerArrayList.set(2,999);
+        System.out.println(integerArrayList);
 
 
+        System.out.println(" \n ----------              BİR ELEMANIN İNDEKSİNİ BULMA     ---------   \n" );
+
+
+        System.out.println(stringArrayList);
+
+        System.out.println(stringArrayList.indexOf("Ömer")); //Ömer benim listemde kacıncı indexte ?
+        System.out.println(stringArrayList.indexOf("Burak")); //Burak benim listemde kacıncı indexte ?
+
+
+        stringArrayList.add(4,"Ömer");
+        System.out.println(stringArrayList);
+        System.out.println(stringArrayList.lastIndexOf("Ömer"));
 
     }
 }
