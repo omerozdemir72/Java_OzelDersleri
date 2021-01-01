@@ -13,8 +13,13 @@ Daha sonra bu arrayLİsti yazdırıp elemanları konsolda görünüz.
 
         Scanner sc = new Scanner(System.in);
 
+        ArrayList<String> arrayList = new ArrayList<>();
 
 
+        for (int i = 0; i < 5; i++) {
+        arrayList.add(sc.nextLine());
 
+        }
+        System.out.println(arrayList);
     }
 }
