@@ -15,7 +15,14 @@ public class _4 {
 
         Scanner sc = new Scanner(System.in);
 
+        int sayi = sc.nextInt();
 
+        int carpan= sayi*3;
+        if (carpan%2==0){
+            System.out.println("Sayı cifttir." + carpan);
+        }
+        else
+            System.out.println("Sayı tektir." + carpan);
 
     }
 }

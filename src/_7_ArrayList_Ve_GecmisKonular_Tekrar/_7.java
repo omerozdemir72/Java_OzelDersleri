@@ -22,5 +22,27 @@ not: Sonuçlar ondalıklı olacaktır. Değişken tipini bu duruma göre belirle
  */
         Scanner sc = new Scanner(System.in);
 
+
+        System.out.print("Boy :   ");
+        float boy = sc.nextFloat();
+
+        System.out.print("Kilo : ");
+        float kilo = sc.nextFloat();
+
+        float kitleindeksi = kilo/(boy*boy);
+
+
+        System.out.println("Kitle indeksim :   " + kitleindeksi);
+
+
+        if (kitleindeksi <18.5) {
+            System.out.println("zayıf");
+        }else if (kitleindeksi>=18.5 && kitleindeksi<=24.9){
+            System.out.println("normal");
+        }else if (kitleindeksi>=25.9&& kitleindeksi<=29.9){
+            System.out.println("kilolu");
+        }else if (kitleindeksi>=29.9 && kitleindeksi<=34.9){
+            System.out.println("1. derece obez");
+        }
     }
 }
