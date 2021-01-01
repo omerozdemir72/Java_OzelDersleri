@@ -14,6 +14,12 @@ public class _2 {
         Elemanlarını gönderin.Daha sonra bunları sıraya sokun ve yazdırın.
          */
 
-
+        ArrayList<String>arrayList = new ArrayList<>();
+        arrayList.add("Binali");
+        arrayList.add("Tayyip");
+        arrayList.add("Mansur");
+        arrayList.add("Ekrem");
+        Collections.sort(arrayList);
+        System.out.println(arrayList);
     }
 }
