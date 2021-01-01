@@ -14,7 +14,6 @@ public class _5_Soru2 {
         55
         12
         3
-
         Bu arrayilistin elemanlarını "sıraya dizin" .
 
         ve  20'nin indexini alın ve konsola yazdırın.
