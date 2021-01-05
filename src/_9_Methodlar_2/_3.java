@@ -12,8 +12,8 @@ public class _3 {
     daha sonra a nın değeri main method içerisinden verin.
      */
 
-    public static void myMethod(int a) {
-        for (int i = 0; i <a; i++) {
+    public static void myMethod(int sayi) {
+        for (int i = 0; i <sayi; i++) {
             System.out.println(i);
         }
     }

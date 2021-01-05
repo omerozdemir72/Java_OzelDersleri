@@ -1,6 +1,6 @@
 package _9_Methodlar_2;
 
-public class _1 {
+public class  _1 {
     /*
     public static void method oluşturun.
     int a parametre oluşturun.
