@@ -5,7 +5,10 @@ public class _2_mainClass {
 
         _2 class2 = new _2();
 
+
         System.out.println(class2.a("bcde"));
+
+
 
 
     }
