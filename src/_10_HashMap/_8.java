@@ -2,9 +2,8 @@ package _10_HashMap;
 
 import java.util.HashMap;
 
-public class _7 {
+public class _8 {
     public static void main(String[] args) {
-
 
         HashMap<String,String> map = new HashMap<>();
         //key                       value
@@ -15,11 +14,11 @@ public class _7 {
         map.put("Apple Store","340 Euro");
 
 
-        /*
-        Ebay'in değerini bulun.
+        if (map.containsValue("279 Euro")){
+            System.out.println("bu fiyatta bir satıcı bulundu." );
+        }
+        else
+            System.out.println("Böyle bir satıcı yok.");
 
-         */
-
-        System.out.println(map.get("Ebay"));
     }
 }

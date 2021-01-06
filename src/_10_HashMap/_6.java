@@ -20,7 +20,7 @@ map.containsKey
 
         String key = "Apple Store";
 
-        if (map.containsKey(key)){ //eğer map in içerisinde apple store isminde bir key var ise,
+        if (map.containsKey("Apple Store")){ //eğer map in içerisinde apple store isminde bir key var ise,
             System.out.println("Değeri :   " + map.get(key)); // değerini yazdırma
         }else
             System.out.println("Bu map içerisinde bununla alakalı bir veri yoktur.");
