@@ -16,8 +16,7 @@ public class _7 {
 
 
         /*
-        String key oluşturun ve bunun değeri Ebay olsun.
-        Ebay'in "value"sini yazdırın.
+        Ebay'in değerini bulun.
 
          */
     }
