@@ -1,5 +1,7 @@
 package _10_HashMap;
 
+import java.util.HashMap;
+
 public class _10 {
     public static void main(String[] args) {
 
@@ -18,6 +20,14 @@ public class _10 {
      konsola 3'ün DEĞERİNİ yazdırın.
 
          */
+        HashMap<Integer,Integer> map = new HashMap<>();
+        map.put(1,10);
+        map.put(2,20);
+        map.put(3,30);
+        map.put(4,40);
+
+        if(map.containsKey(4))
+        System.out.println(map.get(2));
 
     }
 }
