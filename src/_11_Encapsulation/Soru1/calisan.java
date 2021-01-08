@@ -5,9 +5,11 @@ public class calisan {
     calisan classında  String isim
     int calisanSayisi
     int yas
+
+
     oluşturun.
 
     bunların getter ve setter larını oluşturun.
 
-     */
+            */
 }
