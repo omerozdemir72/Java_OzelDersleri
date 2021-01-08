@@ -24,6 +24,11 @@ getter : çağırılan methoddur.
     }
 
     public void setSoyad(String soyad) {
+
+            if (soyad.contains("a")){
+                System.out.println("A vardır");
+        }else
+                System.out.println("A yoktur.");
         this.soyad = soyad;
     }
 
@@ -32,7 +37,12 @@ getter : çağırılan methoddur.
     }
 
     public void setYas(int yas) {
-        this.yas = yas;
+        if (yas<18){
+
+            System.out.println("yaşınız küçüktür.");
+            this.yas = yas;
+        }
+
     }
 }
 
@@ -45,12 +55,12 @@ public class ders2 {
         ogrenci2 ogrenci2 = new ogrenci2();
 
         ogrenci2.setAd("Ömer");
-        ogrenci2.setSoyad("Özdemir");
-        ogrenci2.setYas(12);
+        ogrenci2.setSoyad("Özbakır");
+        ogrenci2.setYas(19);
 
         System.out.println(ogrenci2.getAd());
         System.out.println(ogrenci2.getSoyad());
-        System.out.println(ogrenci2.getYas());
+       System.out.println(ogrenci2.getYas());
 
     }
 }
