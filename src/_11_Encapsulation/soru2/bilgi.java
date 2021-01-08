@@ -1,11 +1,27 @@
 package _11_Encapsulation.soru2;
 
 public class bilgi {
-    /*
-    String isim ve String soyisim oluşturun.
-    getter setter oluşturun
+    private String isim;
+    private String soyisim;
 
-  Eğer soyismin "karakter sayısı" (uzunluğu) 6 dan büyük ise, "geçersiz soyisim" yazsın.
+    public String getIsim() {
+        return isim;
+    }
 
-     */
+    public void setIsim(String isim) {
+        this.isim = isim;
+    }
+
+    public String getSoyisim() {
+        return soyisim;
+    }
+
+    public void setSoyisim(String soyisim) {
+        this.soyisim = soyisim;
+
+        if (soyisim.length() > 6) {
+            System.out.println("Gecersiz soyisim");
+        }
+
+    }
 }

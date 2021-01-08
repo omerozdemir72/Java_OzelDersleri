@@ -6,6 +6,11 @@ public class mainClass {
         /*
        bilgi classındaki değerleri burada cagırın.
 
-         */
+         */bilgi bilgi = new bilgi();
+        bilgi.setIsim("ali");
+        bilgi.setSoyisim("akıncıoglu");
+
+        System.out.println(bilgi.getIsim());
+        System.out.println(bilgi.getSoyisim());
     }
 }
