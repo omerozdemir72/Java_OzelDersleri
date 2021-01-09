@@ -2,6 +2,18 @@ package _12_TryCatch;
 
 public class _1_ {
     public static void main(String[] args) {
+
+        /*
+        RUNTİME ERROR
+       todo  Run yaptıgınızda ortaya çıkan hatadır. Run yaptıgınızda görebildiginiz hatadır.
+         */
+
+        /*
+        COMPİLE ERROR
+
+       todo    Kod yazım hatası vb. hatalara denir. Sayfanızda class ve package lar kızarır. Calıstırdıgınızda size hata verir.
+       Kod yazımı sırasında olusan hatalardır.
+         */
 /*
 Normalde hata alıp devam edemeyecek bir kodu, try kısmının içerisine yazdıgınızda
 eğer hata varsa hatayı yakalar, hangi hata oldugunu söyler (hangi exception)  ve tüm kodlar
