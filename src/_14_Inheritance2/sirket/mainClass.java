@@ -1,13 +1,16 @@
 package _14_Inheritance2.sirket;
 
-public class main {
+import _14_Inheritance2.Yonetici;
+
+public class mainClass {
     /*
 calisan isminde bir class oluşturun.
 private String isim
 private String departman
-private String maas;
+private int maas;
 
 public int zam isminde method oluşturun.
+
 
 500 tl zam yapsın.
 return olarak maaşı döndürün
@@ -38,4 +41,35 @@ maas = 3500
 Sorumlu olduğu kişi sayısı : 100
 
 */
+
+    public static void main(String[] args) {
+
+        calisan sekreter = new calisan("Hakan","Bilişim",2000);
+
+        sekreter.Bilgilerim();
+
+        sekreter.zam();
+        sekreter.Bilgilerim();
+
+        System.out.println("-----------------------------");
+
+        calisan satisDanismani = new calisan("Hatice","Pazarlama",1700);
+
+        satisDanismani.Bilgilerim();
+
+        System.out.println("---------------------------------");
+
+        yonetici mudur = new yonetici("Ömer","Yönetim",4000,100);
+
+        mudur.Bilgilerim();
+        mudur.zam();
+        mudur.zam();
+        mudur.zam();
+        mudur.zam();
+        mudur.Bilgilerim();
+
+
+
+
+    }
 }
