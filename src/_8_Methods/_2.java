@@ -7,6 +7,15 @@ void methodlar dışında bir de dönüşü olan methodlarımız vardır. Bunlar
 
  */
 
+       _1 a = new _1();
+
+        _1.topla(1,2);
+        _1.cikar(5,2);
+
+
+        a.bol(2,1);
+
+
         System.out.println(topla(10,20));
         System.out.println(cikar(20,5));
         System.out.println(bol(20,5));

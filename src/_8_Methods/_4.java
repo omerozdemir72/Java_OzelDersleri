@@ -20,6 +20,6 @@ public class _4 {
 
 
     public static String EkranaYaz(String a){
-        return a;
+        return a ;
     }
 }

@@ -8,7 +8,7 @@ public class _1 {
     oluşturup buralarda o işlemleri yapabiliriz.
     Methodlar kodların daha okunaklı ve daha düzenli olmasını saglar.
 
-    * başında sadece public var ise, oje olusturmadan (referans) methodlara ulaşamayiz.
+    * başında sadece public var ise, obje olusturmadan (referans) methodlara ulaşamayiz. ---    class1  class1Referans = new class1();
 
   * ancak basında static var ise obje oluşturmadan direkt main methodunun içerisinde cagırmak istediginiz methodun ismini yazmanız yeterli.
          */
@@ -50,7 +50,7 @@ public class _1 {
         System.out.println("Çıkarma işleminin sonucu : "   + (a-b-c));
 
     }
-    public void carp(int a, int b){
+     void carp(int a, int b){
 
         System.out.println("Çarpma işleminin sonucu : "   + (a*b));
     }
