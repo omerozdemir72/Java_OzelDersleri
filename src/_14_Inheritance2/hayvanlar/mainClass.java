@@ -20,4 +20,20 @@ public class mainClass {
     Ve burda hayvan oluşturunuz.
 
      */
+
+    public static void main(String[] args) {
+        hayvanOzellikleri kus = new hayvanOzellikleri("sari", 2, true, false, "cik");
+
+        System.out.println(kus);
+
+
+
+        hayvanOzellikleri kopek = new hayvanOzellikleri("siyah",2,false,false,"havhav");
+
+        System.out.println(kopek);
+    }
+
+
+
+
 }
