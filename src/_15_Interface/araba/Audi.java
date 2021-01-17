@@ -5,6 +5,9 @@ public class Audi implements Tasit{
 
     @Override
     public String getMarka() {
-        return "Audi  A4";
+        return null;
     }
+
+
+
 }

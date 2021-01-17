@@ -11,7 +11,7 @@ ADIMLR
 1.Sayacı belirle    int  i = 0;
 2.Sayaç kaça kadar devam edecek? Döngü kaç kez dönecek?
 3.döngüde ne yazdırmak istiyorum?
-5.sayac kaç kaç artacak ? i++;      i+=2;
+4.sayac kaç kaç artacak ? i++;      i+=2;
  */
         int sayac = 0; //sayac kaçtan başlayacak?
         while (sayac<=5){   //0'dan kaça kadar devam edecek ? Döngü kaç tur olacak?
@@ -34,12 +34,8 @@ ADIMLR
             int sayac2 =10;
 
             while (sayac2>0){
-
-                System.out.print(sayac2 + " | ");
-
+                System.out.print(sayac2 + "|");
                 sayac2--;
-
             }
-
     }
 }
